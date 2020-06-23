@@ -26,9 +26,9 @@ class Car():
 #Chield class
 class electro_car(Car):
     """Class to create eletro car"""
-    def __init__(self, mark, model, color, price):
+    def __init__(self, mark, model, color, price):   # (self, *args, **kwargs)
         """Initiate electo car"""
-        super().__init__(mark, model, color, price)
+        super().__init__(mark, model, color, price)  # (*args, **kwargs)
         self.__engine_class = 'Electro engine'
         self.__battery = 100
 
