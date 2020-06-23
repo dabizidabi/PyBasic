@@ -19,7 +19,7 @@ print(car)
 del car['colour']
 print(car)
 
-car['year'] = car['year'] - 5
+car['year'] -= 5  # car['year'] = car['year'] - 5
 if car['year'] < 2019:
     car['model'] = 't500'
     car['price'] = 15000
