@@ -9,7 +9,7 @@ class Car():
 
     def show_car(self):
         """print all parameters of car"""
-        dicription = (self.mark + " Model is: " + self.model + " color: " + str(self.price) + "$")
+        dicription = (self.mark + " Model is: " + self.model + " color: " + self.color + ", price is : " + str(self.price) + "$")
         print(dicription)
 
     def price_up(self):
