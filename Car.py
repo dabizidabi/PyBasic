@@ -14,7 +14,7 @@ class Car():
 
     def price_up(self):
         """Upgrade price"""
-        self.price += +1000
+        self.price += 1000
 
     def mileage(self):
         """Start mileage"""
